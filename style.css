@@ -7,3 +7,67 @@
 html{
     font-size: 62.5%;
 }
+h1{
+    font-size: 2.6rem;
+}
+li,button,label,p {
+    font-size:2rem;
+}
+h2{
+    font-size: 4.8rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4,h5{
+    font-size: 2.8rem;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+button{
+    padding: 2rem 6rem;
+    background: #4c6e97;
+    border: none;
+    font-size: 1.8rem;
+    color:white;
+    cursor:pointer;
+}
+/*Nav Section with hero*/
+.main-head{
+    background:#131c27;
+    color:white;
+}
+nav{
+    min-height: 10vh;
+    display: flex;
+    width: 90%;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav ul{
+    display:flex;
+    flex:1 1 40rem;
+    justify-content:space-between;
+    align-items:flex-end ;
+    list-style:none;
+}
+nav h1{
+    flex:1 1 40rem;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.5),transparent),url("img/landing-page.jpg");
+    min-height: 90vh;
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
